@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.MuiAppBar-root {
+  cursor: pointer !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+}
+.title {
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: 300 !important;
+}
+.title:hover {
+  color: cyan !important;
+}
+.cardGrid {
+  margin: 50px auto !important;
+}
